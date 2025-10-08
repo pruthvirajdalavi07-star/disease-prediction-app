@@ -21,7 +21,6 @@ st.sidebar.write("""
 """)
 
 # Continue with your existing code...
-st.title("🩺 Health Prediction App")
 # ... rest of your existing code
 
 # =========================
@@ -116,4 +115,5 @@ with tab2:
         prob = prediction[0][class_idx]
 
         st.success(f"**Prediction:** {skin_labels[class_idx]}")
+
         st.write(f"**Confidence:** {prob:.2f}")
